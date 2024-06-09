@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOMEHUNT</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">HOMEHUNT</div>
+      <div class="nav">
+        <a href="logina.php">Admin Login</a>
+        <a href="login.php">User Login</a>
+      </div>
+    </header>
+
+    <main>
+      <div class="card-container">
+        <!-- Card examples -->
+        <div class="card" onclick="showLoginMessage(this)">
+          <img
+            src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="House Image"
+          />
+          <div class="card-content">
+            <p>Location: Visakhapatnam</p>
+            <p>Type: Family</p>
+          </div>
+        </div>
+        <div class="card" onclick="showLoginMessage(this)">
+          <img
+            src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="House Image"
+          />
+          <div class="card-content">
+            <p>Location: Nellore</p>
+            <p>Type: Bachelor</p>
+          </div>
+        </div>
+        <div class="card" onclick="showLoginMessage(this)">
+          <img
+            src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="House Image"
+          />
+          <div class="card-content">
+            <p>Location: Vijayawada</p>
+            <p>Type: Family</p>
+          </div>
+        </div>
+        <div class="card" onclick="showLoginMessage(this)">
+          <img
+            src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="House Image"
+          />
+          <div class="card-content">
+            <p>Location: Ongole</p>
+            <p>Type: Bachelor</p>
+          </div>
+        </div>
+        <div class="card" onclick="showLoginMessage(this)">
+          <img
+            src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="House Image"
+          />
+          <div class="card-content">
+            <p>Location: Kavali</p>
+            <p>Type: Family</p>
+          </div>
+        </div>
+        <div class="card" onclick="showLoginMessage(this)">
+          <img
+            src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="House Image"
+          />
+          <div class="card-content">
+            <p>Location: Tirupati</p>
+            <p>Type: Bachelor</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div id="login-message" class="login-message">
+      <div class="message-content">
+        <p>Login as user to access</p>
+        <button onclick="closeLoginMessage()">Close</button>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 HOMEHUNT. All Rights Reserved.</p>
+        <div class="footer-links">
+          <a href="#contact">Contact Us</a>
+          <a href="#privacy">Privacy Policy</a>
+          <a href="#terms">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
